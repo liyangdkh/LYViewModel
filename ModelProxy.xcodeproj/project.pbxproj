@@ -13,6 +13,13 @@
 		B609182820230309005E86EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B609182720230309005E86EB /* Assets.xcassets */; };
 		B609182B20230309005E86EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B609182920230309005E86EB /* LaunchScreen.storyboard */; };
 		B609182E20230309005E86EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B609182D20230309005E86EB /* main.m */; };
+		B6091838202305A4005E86EB /* ModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6091837202305A4005E86EB /* ModelView.m */; };
+		B609183B202305DB005E86EB /* ModelA.m in Sources */ = {isa = PBXBuildFile; fileRef = B609183A202305DB005E86EB /* ModelA.m */; };
+		B609183E202305E7005E86EB /* ModelB.m in Sources */ = {isa = PBXBuildFile; fileRef = B609183D202305E7005E86EB /* ModelB.m */; };
+		B6091841202305F0005E86EB /* ModelC.m in Sources */ = {isa = PBXBuildFile; fileRef = B6091840202305F0005E86EB /* ModelC.m */; };
+		B61248412023184B00E2541C /* ModelAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61248402023184B00E2541C /* ModelAViewController.m */; };
+		B61248442023185700E2541C /* ModelBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61248432023185700E2541C /* ModelBViewController.m */; };
+		B61248472023186000E2541C /* ModelCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61248462023186000E2541C /* ModelCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,21 @@
 		B609182A20230309005E86EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B609182C20230309005E86EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B609182D20230309005E86EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6091836202305A4005E86EB /* ModelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelView.h; sourceTree = "<group>"; };
+		B6091837202305A4005E86EB /* ModelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelView.m; sourceTree = "<group>"; };
+		B6091839202305DB005E86EB /* ModelA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelA.h; sourceTree = "<group>"; };
+		B609183A202305DB005E86EB /* ModelA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelA.m; sourceTree = "<group>"; };
+		B609183C202305E7005E86EB /* ModelB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelB.h; sourceTree = "<group>"; };
+		B609183D202305E7005E86EB /* ModelB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelB.m; sourceTree = "<group>"; };
+		B609183F202305F0005E86EB /* ModelC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelC.h; sourceTree = "<group>"; };
+		B6091840202305F0005E86EB /* ModelC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelC.m; sourceTree = "<group>"; };
+		B609184220230AA8005E86EB /* ViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModelProtocol.h; sourceTree = "<group>"; };
+		B612483F2023184B00E2541C /* ModelAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelAViewController.h; sourceTree = "<group>"; };
+		B61248402023184B00E2541C /* ModelAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelAViewController.m; sourceTree = "<group>"; };
+		B61248422023185700E2541C /* ModelBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelBViewController.h; sourceTree = "<group>"; };
+		B61248432023185700E2541C /* ModelBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelBViewController.m; sourceTree = "<group>"; };
+		B61248452023186000E2541C /* ModelCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelCViewController.h; sourceTree = "<group>"; };
+		B61248462023186000E2541C /* ModelCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +84,10 @@
 				B609181F20230308005E86EB /* AppDelegate.m */,
 				B609182120230309005E86EB /* ViewController.h */,
 				B609182220230309005E86EB /* ViewController.m */,
+				B609184220230AA8005E86EB /* ViewModelProtocol.h */,
+				B612483E2023183000E2541C /* ViewController */,
+				B609183520230343005E86EB /* View */,
+				B60918342023031F005E86EB /* Model */,
 				B609182420230309005E86EB /* Main.storyboard */,
 				B609182720230309005E86EB /* Assets.xcassets */,
 				B609182920230309005E86EB /* LaunchScreen.storyboard */,
@@ -69,6 +95,41 @@
 				B609182D20230309005E86EB /* main.m */,
 			);
 			path = ModelProxy;
+			sourceTree = "<group>";
+		};
+		B60918342023031F005E86EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6091839202305DB005E86EB /* ModelA.h */,
+				B609183A202305DB005E86EB /* ModelA.m */,
+				B609183C202305E7005E86EB /* ModelB.h */,
+				B609183D202305E7005E86EB /* ModelB.m */,
+				B609183F202305F0005E86EB /* ModelC.h */,
+				B6091840202305F0005E86EB /* ModelC.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B609183520230343005E86EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6091836202305A4005E86EB /* ModelView.h */,
+				B6091837202305A4005E86EB /* ModelView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B612483E2023183000E2541C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B612483F2023184B00E2541C /* ModelAViewController.h */,
+				B61248402023184B00E2541C /* ModelAViewController.m */,
+				B61248422023185700E2541C /* ModelBViewController.h */,
+				B61248432023185700E2541C /* ModelBViewController.m */,
+				B61248452023186000E2541C /* ModelCViewController.h */,
+				B61248462023186000E2541C /* ModelCViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +203,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61248412023184B00E2541C /* ModelAViewController.m in Sources */,
+				B61248442023185700E2541C /* ModelBViewController.m in Sources */,
 				B609182320230309005E86EB /* ViewController.m in Sources */,
+				B6091841202305F0005E86EB /* ModelC.m in Sources */,
 				B609182E20230309005E86EB /* main.m in Sources */,
+				B609183E202305E7005E86EB /* ModelB.m in Sources */,
+				B6091838202305A4005E86EB /* ModelView.m in Sources */,
 				B609182020230308005E86EB /* AppDelegate.m in Sources */,
+				B61248472023186000E2541C /* ModelCViewController.m in Sources */,
+				B609183B202305DB005E86EB /* ModelA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

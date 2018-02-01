@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ModelCViewController.h
 //  ModelProxy
 //
 //  Created by liyang on 2018/2/1.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface ModelCViewController : UIViewController
 
 @end
-

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ModelView.h
 //  ModelProxy
 //
 //  Created by liyang on 2018/2/1.
@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewModelProtocol.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ModelView : UIView
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, weak) id<ViewModelProtocol> modelProtocol;
 
 @end
-
