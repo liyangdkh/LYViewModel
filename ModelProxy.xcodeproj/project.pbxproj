@@ -17,6 +17,8 @@
 		B609183B202305DB005E86EB /* ModelA.m in Sources */ = {isa = PBXBuildFile; fileRef = B609183A202305DB005E86EB /* ModelA.m */; };
 		B609183E202305E7005E86EB /* ModelB.m in Sources */ = {isa = PBXBuildFile; fileRef = B609183D202305E7005E86EB /* ModelB.m */; };
 		B6091841202305F0005E86EB /* ModelC.m in Sources */ = {isa = PBXBuildFile; fileRef = B6091840202305F0005E86EB /* ModelC.m */; };
+		B609D99E20591B1B008605C1 /* NavBarTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B609D99D20591B1B008605C1 /* NavBarTestViewController.m */; };
+		B609D9A220591B8C008605C1 /* UINavigationBar+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = B609D9A120591B8C008605C1 /* UINavigationBar+Config.m */; };
 		B61248412023184B00E2541C /* ModelAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61248402023184B00E2541C /* ModelAViewController.m */; };
 		B61248442023185700E2541C /* ModelBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61248432023185700E2541C /* ModelBViewController.m */; };
 		B61248472023186000E2541C /* ModelCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61248462023186000E2541C /* ModelCViewController.m */; };
@@ -42,6 +44,10 @@
 		B609183F202305F0005E86EB /* ModelC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelC.h; sourceTree = "<group>"; };
 		B6091840202305F0005E86EB /* ModelC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelC.m; sourceTree = "<group>"; };
 		B609184220230AA8005E86EB /* ViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModelProtocol.h; sourceTree = "<group>"; };
+		B609D99C20591B1B008605C1 /* NavBarTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavBarTestViewController.h; sourceTree = "<group>"; };
+		B609D99D20591B1B008605C1 /* NavBarTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavBarTestViewController.m; sourceTree = "<group>"; };
+		B609D9A020591B8C008605C1 /* UINavigationBar+Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Config.h"; sourceTree = "<group>"; };
+		B609D9A120591B8C008605C1 /* UINavigationBar+Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Config.m"; sourceTree = "<group>"; };
 		B612483F2023184B00E2541C /* ModelAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelAViewController.h; sourceTree = "<group>"; };
 		B61248402023184B00E2541C /* ModelAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelAViewController.m; sourceTree = "<group>"; };
 		B61248422023185700E2541C /* ModelBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelBViewController.h; sourceTree = "<group>"; };
@@ -85,6 +91,7 @@
 				B609182120230309005E86EB /* ViewController.h */,
 				B609182220230309005E86EB /* ViewController.m */,
 				B609184220230AA8005E86EB /* ViewModelProtocol.h */,
+				B609D99F20591B67008605C1 /* Category */,
 				B612483E2023183000E2541C /* ViewController */,
 				B609183520230343005E86EB /* View */,
 				B60918342023031F005E86EB /* Model */,
@@ -119,6 +126,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		B609D99F20591B67008605C1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B609D9A020591B8C008605C1 /* UINavigationBar+Config.h */,
+				B609D9A120591B8C008605C1 /* UINavigationBar+Config.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		B612483E2023183000E2541C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +144,8 @@
 				B61248432023185700E2541C /* ModelBViewController.m */,
 				B61248452023186000E2541C /* ModelCViewController.h */,
 				B61248462023186000E2541C /* ModelCViewController.m */,
+				B609D99C20591B1B008605C1 /* NavBarTestViewController.h */,
+				B609D99D20591B1B008605C1 /* NavBarTestViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -205,10 +223,12 @@
 			files = (
 				B61248412023184B00E2541C /* ModelAViewController.m in Sources */,
 				B61248442023185700E2541C /* ModelBViewController.m in Sources */,
+				B609D99E20591B1B008605C1 /* NavBarTestViewController.m in Sources */,
 				B609182320230309005E86EB /* ViewController.m in Sources */,
 				B6091841202305F0005E86EB /* ModelC.m in Sources */,
 				B609182E20230309005E86EB /* main.m in Sources */,
 				B609183E202305E7005E86EB /* ModelB.m in Sources */,
+				B609D9A220591B8C008605C1 /* UINavigationBar+Config.m in Sources */,
 				B6091838202305A4005E86EB /* ModelView.m in Sources */,
 				B609182020230308005E86EB /* AppDelegate.m in Sources */,
 				B61248472023186000E2541C /* ModelCViewController.m in Sources */,

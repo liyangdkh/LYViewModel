@@ -10,6 +10,7 @@
 #import "ModelAViewController.h"
 #import "ModelBViewController.h"
 #import "ModelCViewController.h"
+#import "NavBarTestViewController.h"
 
 @interface ViewController ()
 
@@ -20,6 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"VC";
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self setRightBtn];
     
     UIButton *btnA = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [btnA setFrame:CGRectMake(0, 0, 100, 40)];
@@ -41,6 +45,22 @@
     [btnC setTitle:@"Test Model C" forState:UIControlStateNormal];
     [btnC addTarget:self action:@selector(btnCSelector) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btnC];
+}
+
+- (void)setRightBtn
+{
+    UIBarButtonItem *rightBar = [[UIBarButtonItem alloc] initWithTitle:@"NavBar" style:UIBarButtonItemStylePlain target:self action:@selector(rightBtnSel:)];
+    self.navigationItem.rightBarButtonItem = rightBar;
+}
+
+- (void)rightBtnSel:(UIBarButtonItem *)bar
+{
+    NavBarTestViewController *nav = [NavBarTestViewController new];
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:nav];
+    [self.navigationController presentViewController:navVC animated:YES completion:^{
+        
+    }];
+//    [self.navigationController pushViewController:navVC animated:YES];
 }
 
 - (void)btnASelector

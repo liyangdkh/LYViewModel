@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "UINavigationBar+Config.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,7 @@
     ViewController *vc = [ViewController new];
     vc.view.backgroundColor = [UIColor whiteColor];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [nav.navigationBar setBackgroundViewColor:[UIColor redColor]];
     self.window.rootViewController = nav;
     return YES;
 }
